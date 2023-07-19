@@ -1,7 +1,7 @@
 // import React from 'react'
 import { motion } from 'framer-motion';
 import { styles } from '../style';
-// import {ComputersCanvas} from './canvas';
+import {ComputersCanvas} from './canvas';
 
 const Hero = () => {
   return (
@@ -18,7 +18,9 @@ const Hero = () => {
             I develop Frontend applications and <br className='sm:block hidden'/>User Interfaces
           </p>
         </div>
+        <ComputersCanvas/>
       </div>
+
     </section>
   )
 }

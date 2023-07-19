@@ -8,9 +8,9 @@ const App = () => {
     <BrowserRouter>
 
       <div className='relative z-0 primary w-full'>
-      <Navbar />
+      
         <div className='bg-hero-pattern bg-cover w-full w-vh bg-no-repeat '>
-          
+        <Navbar />
           <Hero />
         </div>
 
