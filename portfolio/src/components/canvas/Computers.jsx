@@ -11,10 +11,10 @@ const Computers=()=>{
       <hemisphereLight intensity={0.15} groundColor="black"/> 
       <pointLight intensity={1}/>  
       <spotLight
-      position={[-20,50,10]}
-      angle={0.12}
-      penumbra={1}
-      intensity={1}
+      position={[-20,50,10]}                //light shining position
+      angle={0.12}                          //
+      penumbra={1}                          
+      intensity={1}                         
       castShadow
       shadow-mapSize={1024}
 
