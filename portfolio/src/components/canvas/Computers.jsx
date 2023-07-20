@@ -13,7 +13,7 @@ const Computers=()=>{
       <spotLight
       position={[-20,50,10]}                //light shining position
       angle={0.12}                          //
-      penumbra={1}                          
+      penumbra={1}                          //softness of the light
       intensity={1}                         
       castShadow
       shadow-mapSize={1024}
