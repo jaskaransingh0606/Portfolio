@@ -13,7 +13,7 @@ const ServiceCard=({index,title,icon})=>{
       <motion.div
       
       variants={fadeIn("right","spring",0.5*index,0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card jusify-center items-center'>
+      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card jusify-evenly items-center'>
         <div 
         options={{
           max:45,
@@ -53,9 +53,9 @@ const About = () => {
        I'm a Frontend Developer based in India. I have a passion for web development and love to create for web and mobile devices. I have a good understanding of web technologies and have experience in building web applications with ReactJS. I also develop UI/UX designs for web and mobile applications.
       </motion.p>
 
-      <div className='mt-20  flex flex-wrap  '>
+      <div className='mt-20  flex justify-evenly '>
         {services.map((services,index)=>(
-          <div  key={index} className='w-1/2 flex justify-center '>   
+          <div  key={index} >   
           <ServiceCard key={services.title} index={index} {...services} />
           </div>
         ))}

@@ -8,6 +8,7 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,0.36769
 /* background: rgb(92,194,82);
 background: linear-gradient(0deg, rgba(92,194,82,0.8830985274969363) 0%, rgba(22,19,166,0.8046671549479166) 100%); */
 background-color: black;
+gap: 100px;
 }
 
 .logo {
