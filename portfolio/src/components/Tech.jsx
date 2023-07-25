@@ -1,4 +1,9 @@
 import React from 'react'
+import { SectionWrapper } from '../hoc';
+import {BallCanvas} from './canvas';
+import { motion } from 'framer-motion';
+import { textVariant } from '../utils/motion';
+import { technologies } from '../constants';
 
 const Tech = () => {
   return (
@@ -8,4 +13,4 @@ const Tech = () => {
   )
 }
 
-export default Tech;
+export default SectionWrapper(Tech,"");
