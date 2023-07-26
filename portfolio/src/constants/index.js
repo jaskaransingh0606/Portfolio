@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    java,
   } from "../assets";
   
    const navLinks = [
@@ -76,10 +77,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+   {
+      name: "Java",
+      icon: java,
+   },
     {
       name: "React JS",
       icon: reactjs,
@@ -112,10 +113,7 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    
   ];
   
   const experiences = [
