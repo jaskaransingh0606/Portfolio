@@ -24,6 +24,7 @@ import {
     tripguide,
     threejs,
     java,
+    Bytenamics,
   } from "../assets";
   
    const navLinks = [
@@ -242,16 +243,16 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Bytenamics",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An event management web application made for Sellular Hackathon 2023 by Bytenamics. The application allows users to login as either an admin or a user. Admins can add or delete events and view a list of all participants, while users can join events..",
       tags: [
         {
-          name: "nextjs",
+          name: "Reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Backend",
           color: "green-text-gradient",
         },
         {
@@ -259,8 +260,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: Bytenamics,
+      source_code_link: "https://github.com/jaskaransingh0606/bytenamics",
     },
   ];
   
